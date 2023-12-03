@@ -1,0 +1,305 @@
+
+
+.e159_56 {
+  overflow: hidden;
+}
+.e159_56 {
+  background-color: rgba(255, 255, 255, 1);
+  width: 1440px;
+  height: 1024px;
+  position: absolute;
+}
+
+
+.e103_67 {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.11999999731779099);
+  width: 1440px;
+  height: 1024px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  background-image: url(../image/imagen_login.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn-primary{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  background-color: rgba(
+    245.43749392032623,
+    141.59107267856598,
+    24.543749392032623,
+    0.9100000262260437
+  );
+  width: 256.81622314453125px;
+  height: 55.69977569580078px;
+  position: absolute;
+  left: 500px;
+  top: 900px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+.e159_69 {
+  width: 256.81622314453125px;
+  height: 55.69977569580078px;
+  position: absolute;
+  left: 749px;
+  top: 819.30029296875px;
+}
+.e159_70 {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  background-color: rgba(
+    245.43749392032623,
+    141.59107267856598,
+    24.543749392032623,
+    0.9100000262260437
+  );
+  width: 256.81622314453125px;
+  height: 55.69977569580078px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: rgba(255, 255, 255, 1);
+  transition: color 0.3s ease;
+}
+.e159_70:hover {
+  color: #0F0E0E; /* Cambia la sombra al pasar el ratón sobre el componente */
+}
+.e159_71 {
+  width: 90px;
+  height: 41px;
+  position: absolute;
+  left: 753px;
+  top: 819px;
+  font-family: Bebas Neue;
+  text-align: left;
+  font-size: 36px;
+  letter-spacing: 0;
+}
+.e159_60 {
+  width: 256.81622314453125px;
+  height: 55.69977569580078px;
+  position: absolute;
+  left: 477px;
+  top: 820.30029296875px;
+}
+.e159_61 {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  background-color: rgba(
+    245.43749392032623,
+    141.59107267856598,
+    24.543749392032623,
+    0.9100000262260437
+  );
+  width: 256.81622314453125px;
+  height: 55.69977569580078px;
+  position: absolute;
+  left: 397px;
+  top: 811px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: rgba(255, 255, 255, 1);
+  transition: color 0.3s ease;
+  
+}
+.e159_61:hover {
+  color: #0F0E0E; /* Cambia la sombra al pasar el ratón sobre el componente */
+}
+
+.e159_62 {
+  color: rgba(255, 255, 255, 1);
+  width: 80.1916275024414px;
+  height: 41.29466247558594px;
+  position: absolute;
+  left: 92.37261199951172px;
+  top: 7.682688236236572px;
+  font-family: Bebas Neue;
+  text-align: left;
+  font-size: 36px;
+  letter-spacing: 0;
+  
+}
+
+.e103_82 {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.11999999731779099);
+  background-color: rgba(
+    251.00000023841858,
+    133.00000727176666,
+    0,
+    0.10000000149011612
+  );
+  width: 563px;
+  height: 767px;
+  position: absolute;
+  left: 460px;
+  top: 150px;
+}
+.e160_72 {
+  background-color: rgba(
+    217.0000022649765,
+    217.0000022649765,
+    217.0000022649765,
+    0.38999998569488525
+  );
+  width: 422px;
+  height: 55px;
+  position: absolute;
+  left: 531px;
+  top: 721px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.e160_73 {
+  color: rgba(255, 255, 255, 1);
+  width: 144px;
+  height: 36px;
+  position: absolute;
+  left: 671px;
+  top: 688px;
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+.e145_57 {
+  width: 422px;
+  position: absolute;
+  left: 533px;
+  top: 720px;
+}
+
+.e145_58 {
+  width: 422px;
+  position: absolute;
+  left: 531px;
+  top: 629px;
+}
+.e104_120 {
+  color: rgba(255, 255, 255, 1);
+  width: 87px;
+  height: 36px;
+  position: absolute;
+  left: 698px;
+  top: 593px;
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+.e104_121 {
+  color: rgba(255, 255, 255, 1);
+  width: 87px;
+  height: 36px;
+  position: absolute;
+  left: 675px;
+  top: 685px;
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+.e145_56 {
+  width: 422px;
+  position: absolute;
+  left: 531px;
+  top: 538px;
+}
+.e104_118 {
+  color: rgba(255, 255, 255, 1);
+  width: 90px;
+  height: 36px;
+  position: absolute;
+  left: 697px;
+  top: 504px;
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+.e145_55 {
+  width: 422px;
+  position: absolute;
+  left: 531px;
+  top: 449px;
+}
+.e104_116 {
+  color: rgba(255, 255, 255, 1);
+  width: 119px;
+  height: 36px;
+  position: absolute;
+  left: 683px;
+  top: 414px;
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+.e145_54 {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.11999999731779099);
+  width: 422px;
+  position: absolute;
+  left: 531px;
+  top: 358px;
+}
+.e104_104 {
+  color: rgba(255, 255, 255, 1);
+  width: 119px;
+  height: 36px;
+  position: absolute;
+  left: 683px;
+  top: 323px;
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+.e103_81 {
+  color: rgba(255, 255, 255, 1);
+  width: 330px;
+  height: 119px;
+  position: absolute;
+  left: 577px;
+  top: 184px;
+  font-family: Bebas Neue;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 0;
+}
+.e103_86 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1440px;
+  height: 128px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ei103_86_15_23 {
+  color: rgba(255, 255, 255, 1);
+  width: 143px;
+  height: 38px;
+  position: absolute;
+  left: 45px;
+  top: 40.959999084472656px;
+  font-family: Bebas Neue;
+  text-align: left;
+  font-size: 32px;
+  letter-spacing: 0;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="../Recursos/css/paquetes_admin.css" rel="stylesheet" />
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!-- Bootstrap CSS y JS -->
+<link href="../Library/bootstrap-5.3.2-dist 3/css/bootstrap.min.css" rel="stylesheet" />
+<script src="../Library/bootstrap-5.3.2-dist 3/js/bootstrap.min.js"></script>
+
+<!-- Tabulator CSS y JS -->
+<link href="../Library/Tabulator/dist/css/tabulator.min.css" rel="stylesheet">
+<script type="text/javascript" src="../Library/Tabulator/dist/js/tabulator.min.js"></script>
+
+</head>
+<title>Turismo Feliz</title>
+<body>
+  <div class="e165_52">
+    <div class="e165_58">
+      <div class="ei165_58_3_97"></div>
+      <a href="../View/index.html"><span class="ei165_58_15_30">Cerrar Sesión</span></a>
+      <a href="../View/contacto.html"><span class="ei165_58_15_25">Contacto</span></a>
+      <a href="../View/paquetes.html"><span class="ei165_58_15_26">Paquetes</span></a>
+      <a href="../View/nosotros.html"><span class="ei165_58_15_28">Nosotros</span></a>
+        <a href="../View/inicio.html"><span class="ei165_58_15_24">Inicio</span></a>
+        <a href="../View/inicio.html"><span class="ei165_58_15_23">turismo feliz</span></a>
+    </div>
+
+    <div class="e165_90">
+    </div>
+  </div>
+
+  <div class="e165_60">
+
+    <!-- Boton modal -->
+    <div>
+      <button type="button" class="btn btn-primary btn-sm" style="margin-left:2%;" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">
+        <span class="bi-ICON-NAME"></span>&nbsp;ADICIONAR PAQUETE
+    </button>
+    </div>
+    <div id="tabla" style="margin-left: 2%;margin-right: 2%;"></div>
+
+</body>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Adicionar Paquete</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <input class="form-control" id="textnombre" placeholder="Nombre">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="textPrecio" placeholder="Precio">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="textDescripcion" placeholder="Descripcion">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="limpiar();">Cerrar</button>
+        <button type="button" class="btn btn-primary" id="btnGrabarCta">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModalModificar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modificar Paquete</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <input class="form-control" id="textnombreEdit" placeholder="Nombre">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="textPrecioEdit" placeholder="Precio">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="textDescripcionEdit" placeholder="Descripcion">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="limpiar()">Cerrar</button>
+        <button type="button" class="btn btn-primary" id="btnModificar">Modificar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="miModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Contenido del modal -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Confirmacion de eliminar</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label>Desea continuar con la eliminacion del paquete</label> 
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="limpiar()">Cerrar</button>
+        <button type="button" class="btn btn-primary" id="btnCnfEliminar">Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</html>
+<script type="text/javascript" src="../Scripts/paquetes_admin.js"></script>

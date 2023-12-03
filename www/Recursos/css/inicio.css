@@ -1,0 +1,628 @@
+.e164_52 { 
+	overflow:hidden;
+}
+.e164_52 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1440px;
+	height:2682px;
+	position:absolute;
+}
+.e44_4 { 
+	width:1447px;
+	height:424px;
+	position:absolute;
+	left:-7px;
+	top:2290px;
+}
+.e18_97 { 
+	background-color:rgba(34.00000177323818, 21.000000648200512, 20.000000707805157, 1);
+	width:1447px;
+	height:316px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.e18_98 { 
+	color:rgba(255, 255, 255, 1);
+	width:161.6570281982422px;
+	height:38px;
+	position:absolute;
+	left:643.2366943359375px;
+	top:55px;
+	font-family:Bebas Neue;
+	text-align:left;
+	font-size:32px;
+	letter-spacing:0;
+}
+.e18_101 { 
+	color:rgba(255, 255, 255, 1);
+	width:110.78593444824219px;
+	height:38px;
+	position:absolute;
+	left:49.740623474121094px;
+	top:113px;
+	font-family:Bebas Neue;
+	text-align:left;
+	font-size:32px;
+	letter-spacing:0;
+}
+.e18_106 { 
+	color:rgba(255, 255, 255, 1);
+	width:226.09375px;
+	height:38px;
+	position:absolute;
+	left:1175.6875px;
+	top:104px;
+	font-family:Bebas Neue;
+	text-align:left;
+	font-size:32px;
+	letter-spacing:0;
+}
+.e18_104 { 
+	color:rgba(255, 255, 255, 1);
+	width:117.5687484741211px;
+	height:32px;
+	position:absolute;
+	left:664.7156372070312px;
+	top:113px;
+	font-family:Bebas Neue;
+	text-align:left;
+	font-size:32px;
+	letter-spacing:0;
+}
+.e18_99 { 
+	transform: rotate(-0.2107400320804712deg);
+	width:543.7590942382812px;
+	height:0px;
+	position:absolute;
+	left:49.740623474121094px;
+	top:74.99999237060547px;
+}
+.e18_99 { 
+	border:1px solid rgba(255, 255, 255, 1);
+}
+.e18_100 { 
+	transform: rotate(1.3890840390800162e-8deg);
+	width:558.4515380859375px;
+	height:0px;
+	position:absolute;
+	left:843.3297119140625px;
+	top:73px;
+}
+.e18_100 { 
+	border:1px solid rgba(255, 255, 255, 1);
+}
+.e18_103 { 
+	color:rgba(255, 255, 255, 1);
+	width:266.7906188964844px;
+	height:73px;
+	position:absolute;
+	left:49.740623474121094px;
+	top:157px;
+	font-family:Montserrat;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.e18_107 { 
+	color:rgba(255, 255, 255, 1);
+	width:119.8296890258789px;
+	height:148px;
+	position:absolute;
+	left:1272.9078369140625px;
+	top:141.99998474121094px;
+	font-family:Montserrat;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.e18_105 { 
+	color:rgba(255, 255, 255, 1);
+	width:152.61328125px;
+	height:30px;
+	position:absolute;
+	left:647.7586059570312px;
+	top:151px;
+	font-family:Montserrat;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.e18_108 { 
+	color:rgba(34.00000177323818, 21.000000648200512, 20.000000707805157, 1);
+	width:712.1953125px;
+	height:70px;
+	position:absolute;
+	left:367.40234375px;
+	top:322px;
+	font-family:Montserrat;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+}
+.e60_69 { 
+	width:1447px;
+	height:500px;
+	position:absolute;
+	left:-7px;
+	top:1711px;
+}
+.e18_75 { 
+	width:1447px;
+	height:450px;
+	position:absolute;
+	left:0px;
+	top:24.999929428100586px;
+	background-image:url(../image/rectangle_18.png);
+	background-repeat:repeat;
+	background-size:contain;
+}
+.e18_76 { 
+	background-color:rgba(216.00000232458115, 70.00000342726707, 12.000000234693289, 1);
+	width:676.0203247070312px;
+	height:499.9999694824219px;
+	position:absolute;
+	left:49.74077224731445px;
+	top:-0.000019808343495242298px;
+}
+.e180_90 { 
+	width:288.26953125px;
+	height:57px;
+	position:absolute;
+	left:92px;
+	top:396px;
+}
+.e18_80 { 
+	background-color:rgba(251.00000023841858, 133.00000727176666, 0, 1);
+	width:288.26953125px;
+	height:57px;
+	position:absolute;
+	left:144px;
+	top:0px;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+    transition: background-color 0.3s ease; /* Agregamos la propiedad de transición */
+}
+
+.e18_80:hover {
+    background-color: #073B4C; /* Cambia el color al pasar el ratón sobre el botón */
+}
+.e18_81 { 
+	color:rgba(255, 255, 255, 1);
+	width:240px;
+	height:27px;
+	position:absolute;
+	left:170px;
+	top:15px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:20px;
+	letter-spacing:0;
+}
+.e18_78 { 
+	color:rgba(255, 255, 255, 1);
+	width:590.1046752929688px;
+	height:121px;
+	position:absolute;
+	left:92px;
+	top:145px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:19px;
+	letter-spacing:0;
+}
+.e18_79 { 
+	color:rgba(255, 251.81250303983688, 251.81250303983688, 1);
+	width:590.1046752929688px;
+	height:98px;
+	position:absolute;
+	left:92px;
+	top:299px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:19px;
+	letter-spacing:0;
+}
+.e18_77 { 
+	color:rgba(255, 255, 255, 1);
+	width:575px;
+	height:53px;
+	position:absolute;
+	left:92px;
+	top:31px;
+	font-family:Bebas Neue;
+	text-align:center;
+	font-size:40px;
+	letter-spacing:0;
+}
+.e60_67 { 
+	width:1447px;
+	height:500px;
+	position:absolute;
+	left:-7px;
+	top:1159px;
+}
+.e18_57 {
+    width: 1447px;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    background-image: url(../image/rectangle_12.png);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.e18_58 { 
+	background-color:rgba(216.00000232458115, 70.00000342726707, 12.000000234693289, 1);
+	width:676.0203247070312px;
+	height:499.9999694824219px;
+	position:absolute;
+	left:725.7611083984375px;
+	top:0.0001355504646198824px;
+}
+.e18_63 {
+    background-color: rgba(251.00000023841858, 133.00000727176666, 0, 1);
+    width: 288.26953125px;
+    height: 57px;
+    position: absolute;
+    left: 930.5884399414062px;
+    top: 380.0000915527344px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: background-color 0.3s ease; /* Agregamos la propiedad de transición */
+}
+.e18_63:hover {
+    background-color: #073B4C; /* Cambia el color al pasar el ratón sobre el botón */
+}
+.e18_64 { 
+	color:rgba(255, 255, 255, 1);
+	width:125px;
+	height:24px;
+	position:absolute;
+	left:1011px;
+	top:396px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:20px;
+	letter-spacing:0;
+}
+.e18_60 { 
+	color:rgba(255, 255, 255, 1);
+	width:590.1046752929688px;
+	height:121px;
+	position:absolute;
+	left:769px;
+	top:217px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:19px;
+	letter-spacing:0;
+}
+.e18_59 { 
+	color:rgba(255, 255, 255, 1);
+	width:609px;
+	height:91px;
+	position:absolute;
+	left:768px;
+	top:38px;
+	font-family:Bebas Neue;
+	text-align:center;
+	font-size:40px;
+	letter-spacing:0;
+}
+.e60_66 { 
+	width:1447px;
+	height:380px;
+	position:absolute;
+	left:-7px;
+	top:794px;
+}
+.e15_38 { 
+	background-color:rgb(252, 243, 243);
+	width:1447px;
+	height:380.0000305175781px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.e18_53 { 
+	box-shadow:5px 5px 30px rgba(0, 0, 0, 0.20000000298023224);
+	border-radius:500px;
+	background-color:rgba(67.00000360608101, 25.000000409781933, 26.000000350177288, 0.6000000238418579);
+	width:249.83358764648438px;
+	height:221px;
+	position:absolute;
+    left: 1105.71875px;
+    top: 77.99998474121094px;
+	background-image:url(../image/ellipse_21.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+    transition: box-shadow 0.3s ease;
+}
+.e18_53:hover {
+    box-shadow: 13px 13px 75px rgba(255, 0, 0, 0.508); /* Cambia la sombra al pasar el ratón sobre el componente */
+}
+.e18_54 { 
+	color:rgba(255, 255, 255, 1);
+	width:201.2234344482422px;
+	height:29px;
+	position:absolute;
+	left:1132.7298583984375px;
+	top:175.9999237060547px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}
+.e18_51 { 
+	box-shadow:5px 5px 30px rgba(0, 0, 0, 0.20000000298023224);
+	border-radius:500px;
+	background-color:rgba(67.00000360608101, 25.000000409781933, 26.000000350177288, 0.6000000238418579);
+	width:249.83358764648438px;
+	height:221px;
+	position:absolute;
+	left:768.71875px;
+	top:79.99998474121094px;
+	background-image:url(../image/ellipse_20.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+    transition: box-shadow 0.3s ease; 
+}
+.e18_51:hover {
+    box-shadow: 13px 13px 75px rgba(255, 0, 0, 0.508); /* Cambia la sombra al pasar el ratón sobre el componente */
+}
+.e18_55 { 
+	color:rgba(255, 255, 255, 1);
+	width:201.2234344482422px;
+	height:29px;
+	position:absolute;
+	left:793.5892333984375px;
+	top:169.9998779296875px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}
+.e18_49 { 
+	box-shadow:5px 5px 30px rgba(0, 0, 0, 0.20000000298023224);
+	border-radius:500px;
+	background-color:rgba(67.00000360608101, 25.000000409781933, 26.000000350177288, 0.6000000238418579);
+	width:249.83358764648438px;
+	height:221px;
+	position:absolute;
+	left:429.578125px;
+	top:79.99998474121094px;
+	background-image:url(../image/ellipse_19.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+    transition: box-shadow 0.3s ease;
+}
+.e18_49:hover {
+    box-shadow: 13px 13px 75px rgba(255, 0, 0, 0.508); /* Cambia la sombra al pasar el ratón sobre el componente */
+}
+.e18_50 { 
+	color:rgba(255, 255, 255, 1);
+	width:201.2234344482422px;
+	height:29px;
+	position:absolute;
+	left:454.4483947753906px;
+	top:175.9999237060547px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}
+.e18_39 {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.20000000298023224);
+    border-radius: 500px;
+    background-color: rgba(67.00000360608101, 25.000000409781933, 26.000000350177288, 0.6000000238418579);
+    width: 249.83358764648438px;
+    height: 221px;
+    position: absolute;
+    left: 90.4375px;
+    top: 79.99998474121094px;
+    background-image: url(../image/ellipse_14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: box-shadow 0.3s ease; /* Agrega una transición a la propiedad box-shadow */
+}
+
+.e18_39:hover {
+    box-shadow: 13px 13px 75px rgba(255, 0, 0, 0.508); /* Cambia la sombra al pasar el ratón sobre el componente */
+}
+.e18_45 { 
+	color:rgba(255, 255, 255, 1);
+	width:201.2234344482422px;
+	height:29px;
+	position:absolute;
+	left:115.3077621459961px;
+	top:175.9999237060547px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}
+.e60_65 { 
+	width:1447px;
+	height:701px;
+	position:absolute;
+	left:-7px;
+	top:100px;
+}
+.e15_31 { 
+	width:1447px;
+	height:701px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(../image/rectangle_9.png);
+	background-repeat:repeat;
+	background-size:contain;
+}
+.e15_37 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(67.00000360608101, 25.000000409781933, 26.000000350177288, 0.5);
+	width:614.9749755859375px;
+	height:173.99998474121094px;
+	position:absolute;
+	left:416.0125427246094px;
+	top:245.0000762939453px;
+}
+.e15_34 { 
+	color:rgba(255, 255, 255, 1);
+	width:399.05548095703125px;
+	height:77px;
+	position:absolute;
+	left:524.5376586914062px;
+	top:279.9999694824219px;
+	font-family:Bebas Neue;
+	text-align:left;
+	font-size:64px;
+	letter-spacing:0;
+}
+.e15_35 { 
+	color:rgba(255, 255, 255, 1);
+	width:324.44451904296875px;
+	height:29px;
+	position:absolute;
+	left:561.8431396484375px;
+	top:356.9998779296875px;
+	font-family:Montserrat;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+.e44_5 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	width:1447px;
+	height:100px;
+	position:absolute;
+	left:-7px;
+	top:0px;
+}
+.e3_97 { 
+	background-color:rgba(216.00000232458115, 70.00000342726707, 12.000000234693289, 1);
+	width:1447px;
+	height:100px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.e15_30 { 
+	color:rgba(255, 255, 255, 1);
+	width:179.74453735351562px;
+	height:28.999998092651367px;
+	position:absolute;
+	left:1225px;
+	top:35px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+    transition: color 0.3s ease;
+}
+.e15_30:hover {
+    color: #0F0E0E; /* Cambia la sombra al pasar el ratón sobre el componente */
+}
+.e15_25 { 
+	color:rgba(255, 255, 255, 1);
+	width:124.3515625px;
+	height:28.999998092651367px;
+	position:absolute;
+	left:903.53515625px;
+	top:35px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+    transition: color 0.3s ease;
+}
+.e15_25:hover {
+    color: #0F0E0E; /* Cambia la sombra al pasar el ratón sobre el componente */
+}
+
+.e15_26 { 
+	color:rgba(255, 255, 255, 1);
+	width:128.87344360351562px;
+	height:28.999998092651367px;
+	position:absolute;
+	left:741.8781127929688px;
+	top:37px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+    transition: color 0.3s ease;
+}
+
+.e15_26:hover {
+    color: #0F0E0E; /* Cambia el color al pasar el ratón sobre el enlace */
+}
+
+.e15_28 { 
+	color:rgba(255, 255, 255, 1);
+	width:122.09062194824219px;
+	height:28.999998092651367px;
+	position:absolute;
+	left:580.2210693359375px;
+	top:36px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+    transition: color 0.3s ease; /* Agregamos la propiedad de transición */
+}
+.e15_28:hover {
+    color: #0F0E0E; /* Cambia el color al pasar el ratón sobre el enlace */
+}
+
+.e15_24 {
+    color: rgba(255, 255, 255, 1);
+    width: 73.48046875px;
+    height: 28.999998092651367px;
+    position: absolute;
+    left: 457px;
+    top: 37px;
+    font-family: Montserrat;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0;
+    transition: color 0.3s ease; /* Agregamos la propiedad de transición */
+}
+
+.e15_24:hover {
+    color: #0F0E0E; /* Cambia el color al pasar el ratón sobre el enlace */
+}
+.e15_23 { 
+	color:rgba(255, 255, 255, 1);
+	width:161.6570281982422px;
+	height:37.999996185302734px;
+	position:absolute;
+	left:45.21875px;
+	top:32px;
+	font-family:Bebas Neue;
+	text-align:left;
+	font-size:32px;
+	letter-spacing:0;
+}
+.e181_91 { 
+	color:rgba(255, 255, 255, 1);
+	width:124.3515625px;
+	height:28.999998092651367px;
+	position:absolute;
+	left:1061px;
+	top:35px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+    transition: color 0.3s ease
+}
+.e181_91:hover {
+    color: #0F0E0E;; /* Cambia la sombra al pasar el ratón sobre el componente */
+}

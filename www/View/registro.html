@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../Recursos/css/registro.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="../Library/bootstrap-5.3.2-dist 3/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="../Library/bootstrap-5.3.2-dist 3/js/bootstrap.min.js"></script>
+    <title>Turismo Feliz</title>
+  </head>
+
+  <body>
+    <div class="e103_61">
+      <div class="e103_67"></div>
+
+      <div class="e103_82"></div>
+
+      <span class="e104_104">Nombres</span>
+      <div class="e145_54">
+        <input
+          type="text"
+          class="form-control"
+          id="txtNombres"
+          placeholder="Nombres"
+        />
+      </div>
+      <span class="e104_116">Apellidos</span>
+      <div class="e145_55">
+        <input
+          type="text"
+          class="form-control"
+          id="txtApellidos"
+          placeholder="Apellidos"
+        />
+      </div>
+      <span class="e104_118">Celular</span>
+      <div class="e145_56">
+        <input
+          type="text"
+          class="form-control"
+          id="txtCelular"
+          placeholder="Celular"
+        />
+      </div>
+      <span class="e104_120">Correo</span>
+      <div class="e145_57">
+        <input
+          type="password"
+          class="form-control"
+          id="txtPassword"
+          placeholder="Password"
+        />
+      </div>
+      <span class="e104_121">Contraseña</span>
+      <div class="e145_58">
+        <input
+          type="email"
+          class="form-control"
+          id="txtCorreo"
+          placeholder="Correo"
+        />
+      </div>
+
+      <div class="e159_62">
+        <button type="button" class="e159_61" id="btnCrearCta">Enviar</button>
+      </div>
+
+      <div class="e159_71">
+        <button
+          type="button"
+          class="e159_70"
+          id="btnBorrarDatos"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Borrar
+        </button>
+      </div>
+
+      <span class="e103_81">Te damos la bienvenida turismo feliz</span>
+      <div class="e103_86">
+        <a href="../View/index.html"><span class="ei103_86_15_23">turismo feliz</span></a>
+      </div>
+      <div class="e145_54"></div>
+    </div>
+
+  </body>
+
+<!-- Modal registro exitoso-->
+<div 
+id="miModalRegistro" 
+class="modal fade"
+id="exampleModal"
+tabindex="-1"
+aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="exampleModalLabel">Bienvenido</h1>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="modal-body">
+     Tus datos se registraron exitosamente
+    </div>
+    <div class="modal-footer">
+      <button
+        type="button"
+        class="btn btn-secondary"
+        data-bs-dismiss="modal">
+        Cerrar
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+
+ <!-- Modal usuario no diligencio los datos-->
+ <div 
+ id="miModalDatos" 
+ class="modal fade"
+ id="exampleModal"
+ tabindex="-1"
+ aria-labelledby="exampleModalLabel"
+ aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">Alerta</h1>
+       <button
+         type="button"
+         class="btn-close"
+         data-bs-dismiss="modal"
+         aria-label="Close"
+       ></button>
+     </div>
+     <div class="modal-body">
+      Por favor, completa los campos
+     </div>
+     <div class="modal-footer">
+       <button
+         type="button"
+         class="btn btn-secondary"
+         data-bs-dismiss="modal">
+         Cerrar
+       </button>
+     </div>
+   </div>
+ </div>
+</div>
+
+</html>
+<script type="text/javascript" src="../Scripts/registro.js"></script>

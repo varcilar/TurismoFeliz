@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="../Recursos/css/cuenta.css" rel="stylesheet" />
+
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+      <!-- Bootstrap CSS y JS -->
+      <link
+        href="../Library/bootstrap-5.3.2-dist 3/css/bootstrap.min.css"
+        rel="stylesheet"
+      />
+      <script src="../Library/bootstrap-5.3.2-dist 3/js/bootstrap.min.js"></script>
+
+      <!-- Tabulator CSS y JS -->
+      <link
+        href="../Library/Tabulator/dist/css/tabulator.min.css"
+        rel="stylesheet"
+      />
+      <script
+        type="text/javascript"
+        src="../Library/Tabulator/dist/js/tabulator.min.js"
+      ></script>
+    </head>
+    <title>Turismo Feliz</title>
+  </head>
+  <body>
+    <div class="e175_71">
+      <div class="e175_72"></div>
+
+
+      <div class="e175_73">
+        <div class="e175_75">Eliminar</div>
+        <button class="e175_74" id="btnEliminar" data-bs-toggle="modal" data-bs-target="#miModal" data-bs-whatever="@fat"></button>
+        
+      </div>
+      
+      <div class="e175_76">
+        <div class="e175_78">Editar</div>
+        <button class="e175_77" id="btnEditar" data-bs-toggle="modal" data-bs-target="#exampleModalModificar" data-bs-whatever="@fat"></button>
+      </div>
+
+
+      <div class="e177_89"></div>
+      <span class="e177_82" id="userPassword"></span>
+      <span class="e175_81">Contraseña</span>
+      <div class="e177_88"></div>
+      <span class="e177_81" id="userCorreo"></span>
+      <span class="e175_83">Correo</span>
+      <div class="e177_87"></div>
+      <span class="e177_80" id="userCelular"></span>
+      <span class="e175_85">Celular</span>
+      <span class="e175_90">Mi cuenta </span>
+      <div class="e177_86"></div>
+      <span class="e177_79" id="userApellidos"></span>
+      <span class="e175_87">Apellidos</span>
+      <div class="e177_85"></div>
+      <span class="e177_78" id="userNombres"></span>
+      <span class="e175_89">Nombres</span>
+      <div class="e175_91">
+        <a href="../View/inicio.html"><span class="ei175_91_15_23">turismo feliz</span></a>
+      </div>
+    </div>
+  </body>
+
+  <div class="modal fade" id="exampleModalModificar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modificar Usuario</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <input class="form-control" id="textNombresEdit" placeholder="Nombre">
+            </div>
+            <div class="mb-3">
+              <input class="form-control" id="textApellidosEdit" placeholder="Apellidos">
+            </div>
+            <div class="mb-3">
+              <input class="form-control" id="textCelularEdit" placeholder="Celular">
+            </div>
+            <div class="mb-3">
+              <input class="form-control" id="textCorreoEdit" placeholder="Correo">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="textPasswordEdit" placeholder="Password">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="limpiar()">Cerrar</button>
+          <button type="button" class="btn btn-primary" id="btnEditar" onclick="btnEditar()">Modificar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="miModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Contenido del modal -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Confirmacion de eliminar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label>Desea continuar con la eliminacion del paquete</label> 
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="limpiar()">Cerrar</button>
+          <button type="button" class="btn btn-primary" id="btnEliminar" onclick="btnEliminar()">Eliminar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+</html>
+<script type="text/javascript" src="../Scripts/cuenta.js"></script>
+
